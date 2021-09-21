@@ -1,19 +1,19 @@
 package de.neuefische.studentserver.model;
 
 public class Student {
-    int id;
+    String id;
     String name;
 
-    public Student(int id, String name) {
+    public Student(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
