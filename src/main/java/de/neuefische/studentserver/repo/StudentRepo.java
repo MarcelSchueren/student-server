@@ -1,10 +1,12 @@
 package de.neuefische.studentserver.repo;
 
 import de.neuefische.studentserver.model.Student;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class StudentRepo {
     private final List<Student> students = new ArrayList<>();
 

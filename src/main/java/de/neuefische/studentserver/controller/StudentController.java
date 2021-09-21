@@ -19,13 +19,6 @@ public class StudentController {
         this.studentService = studentService;
     }
 
-//    StudentService studentService = new StudentService();
-
-//    @GetMapping
-//    public List<Student> getStudents() {
-//        return studentService.list();
-//    }
-
     @PostMapping
     public void postStudent(@RequestBody Student student) {
         studentService.add(student);
